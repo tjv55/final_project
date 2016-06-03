@@ -31,7 +31,7 @@
     this.imgs        = {
       'bg'            : 'imgs/bg.png',
       'sky'           : 'imgs/sky.png',
-      'sand'         : 'imgs/sand.png',
+      'sand'          : 'imgs/sand.png',
       'avatar_normal' : 'imgs/normal_walk.png',
       'spike'         : 'imgs/spike.png',
       'sand1'         : 'imgs/sandBigBlock1.png',
@@ -612,17 +612,13 @@
               window.setTimeout(callback, 1000 / 60);
             };
   })();
-  var startGameCounter = 0;
   /**
    * Starts Game and resets all
    */
   function startGame()
   {
     document.getElementById('game-over').style.display = 'none';
-    if(startGameCounter = 0)
-    {
-    
-    }
+
 
 
     ground = [];
